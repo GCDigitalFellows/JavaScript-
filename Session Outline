@@ -1,0 +1,41 @@
+Introduction: Javascript - 
+	- JavaScript is a scripting language, created for making html-pages interactive.
+	- JavaScript has nothing in common with Java. It is a completely different language with a similar naming. 
+	- Programs in JavaScript are called scripts. They need no compilation, you just write a script, append it to HTML-page and it works.
+
+	- Create basic HTML page
+	- Internal element: use <script>
+    alert('Hello, World!')
+  	</script>  to create basic interactive alert 
+  	- Note that contents of the SCRIPT block is not shown, instead, it is executed.
+
+	Code structure
+	- Statements are separated by a semicolon.
+	- Spaces and tabs are ignored, so one-lining is possible:
+	alert('Hello');   alert('World!');
+	- But newlines are not ignored. Instead, a newline may separate statements, just like semicolons do.
+		These two lines are fully equivalent:
+		a = 5
+		a = 5;
+	- A backslash before a line break forces the interpreter to ignore the newline.
+	- The // sign is for comments. A comment is a line of text that JavaScript won't try to run as code. It's just for humans to read.
+		// This is a comment that the computer will ignore. 
+		// It is for your eyes only!
+
+ 	Use console to try these out -
+
+ 	- confirm('This is a message from The Singularity');
+	- These boxes can be used on websites to confirm things with users. You've probably seen them pop up when you try to delete important things or leave a website with unsaved changes.
+
+	- You can ask for input with a prompt.
+	- prompt("what is your deal, dude?")
+
+
+ 	- Variables and data
+ 	- Doing math
+ 	- Logic
+ 	- Conditional 
+ 	- Looping 
+ 	- Functions 
+ 	- Objects 
+ 	- Arrays 
