@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignments - Psych 101</title>	
+	<link rel="stylesheet" type="text/css" href="style.css" /> 
+
+		<script>function validateForm() {       
+		var x = document.forms["myform"]["name"].value; 
+		if (x == "") {
+			alert("Name must be filled out");
+			return false;
+		}
+		else {
+			alert("Thanks for your submission");
+			return true;
+		}
+	}
+</script>
+
+</head>
+<body>
+	<div id="container">
+
+		<div id="header">
+			<h1>Assignments - Psych 101</h1>
+			<p class="intro">This is the Assignments page for Psych 101: Introduction to Psychology.</p>
+		</div>
+
+		<div id="content">
+			<form name="myform" onsubmit="return validateForm()">
+				Name:<br/>
+				<input type="text" name="name"><br/><br/>
+				Email:<br/>
+				<input type="text" name="email"><br/><br/>
+				Topic of Final Project: <br/>
+				<input type="text" name="topic"><br/><br/>
+				Format: <br/>
+				<input type="radio" name="format" value="researchpaper" checked> Research Paper<br/>
+				<input type="radio" name="format" value="performance"> Performance<br/>
+				<input type="radio" name="format" value="video"> Video<br/>
+				<input type="radio" name="format" value="website"> Website<br/><br/>
+				<input type="submit" value="Submit">
+			</form>
+
+		</div>	
+
+		<div id="footer">
+			<p class="intro" >Copyright &copy Dr. Caligari</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
